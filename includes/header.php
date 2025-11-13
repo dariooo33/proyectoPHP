@@ -24,24 +24,6 @@
 <?php
     }else{
 ?>  
-    <style>
-        header {
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        nav a {
-            color: #ffd700;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-    </style>
     <header>
     <img src="/trabajoPHP/assets/images/logo.png" alt="Logo">
     <h1>Mi Sitio Web</h1>
