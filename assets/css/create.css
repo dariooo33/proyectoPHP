@@ -43,8 +43,7 @@ body {
 .form-ruta input,
 .form-ruta select,
 .form-ruta textarea {
-    width: 100
-    %;
+    width: 100%;
     padding: 8px 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
