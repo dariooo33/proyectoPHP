@@ -1,0 +1,126 @@
+/* ===========================
+   ESTILOS GENERALES
+   =========================== */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f5f8ff;
+    color: #333;
+}
+
+.form-ruta {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 15px;
+}
+
+.form-ruta h1,
+.form-ruta h2 {
+    color: #004b8d;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+/* ===========================
+   FORMULARIO
+   =========================== */
+.form-ruta form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+
+/* Cada campo del formulario */
+.form-ruta label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #004b8d;
+}
+
+.form-ruta input,
+.form-ruta select,
+.form-ruta textarea {
+    width: 100
+    %;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.form-ruta input:focus,
+.form-ruta select:focus,
+.form-ruta textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Fieldset simple */
+.form-ruta fieldset {
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.form-ruta fieldset legend {
+    font-weight: 600;
+    color: #004b8d;
+}
+
+.form-ruta fieldset label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px; /* espacio entre el checkbox y el texto */
+    margin-right: 15px; /* espacio entre cada opción */
+    font-weight: 500;
+}
+
+.form-ruta input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+/* Textarea */
+.form-ruta textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+/* Botón de envío */
+.form-ruta button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-ruta button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de error */
+.form-ruta .error {
+    color: #ff4d4f;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+@media (max-width: 768px) {
+    .form-ruta {
+        padding: 0 10px;
+    }
+}

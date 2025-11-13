@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f5f8ff;
+    color: #333;
+
+}
+
+main {
+    margin-top:40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre contenedores */
+    justify-content: center;
+}
+
+.ruta-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    border: 2px solid #acacac;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.ruta-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.ruta-info {
+    flex: 1;
+}
+
+.ruta-info h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.ruta-info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 1000px) {
+    .ruta-container {
+        max-width: 45%; /* 2 por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 700px) {
+    .ruta-container {
+        flex-direction: column; /* En móviles, imagen arriba */
+        max-width: 100%;
+    }
+
+    .ruta-container img {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
